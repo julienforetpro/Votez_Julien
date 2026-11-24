@@ -1,0 +1,16 @@
+site_name: Julien 2027
+site_description: Un projet présidentiel pour ouvrir la pratique sportive à tous.
+use_directory_urls: false
+theme:
+  name: null
+  custom_dir: theme
+plugins: []
+nav:
+  - Accueil: index.md
+  - Programme: programme.md
+  - Méthode: methode.md
+  - Se mobiliser: mobilisation.md
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: false
